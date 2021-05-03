@@ -1,6 +1,5 @@
 
 [Meta: Data - Competencia en ciencia de Datos - Desafíos AgTech 2020](https://metadata.fundacionsadosky.org.ar/competition/22/)
-
 # Clasificación de cultivos utilizando imágenes satelitales
 
 > **4° Puesto** | Puntaje Público: **0.62821** - Puntaje Privado: **0.52524** (Balanced accuracy)
@@ -11,7 +10,7 @@ Construir un método de aprendizaje supervisado que mediante imágenes satelital
 ## Solución
 Se propone un modelo de clasificación de cultivos con imágenes obtenidas de los satélites Landsat 8, Sentinel 1 y Sentinel 2 a través de la API Google Earth Engine. 
 
-![Zona de Interés]("data/img/zona_estudio.PNG")
+![Zona de Interés](data/img/zona_estudio.PNG)
 
 El modelo consiste en un algoritmo de Gradient Boosting, el framework Lightgbm. Se construye un conjunto de datos estructurado usando las bandas de las imágenes descargadas de la API GEE como variables ("columnas") y adicionalmente se realiza "feature engineering". 
 
